@@ -1,0 +1,28 @@
+.home-page{
+  :global{
+    .ant-layout{
+        min-height: 98vh;
+    }
+    .ant-menu-light{
+        background-color: #001529;
+        color: #fff;
+        .ant-menu-title-content,
+        .ant-menu-submenu-title{
+            &:hover{
+                color: #1677ff;
+            }
+        }
+    }
+    .ant-layout-header {
+        display: flex;
+        align-items: center;
+        background: gainsboro;
+        .title{
+            color: #001529;
+            font-size: 28px;
+            font-weight: 600;
+            margin: 0 auto;
+        }
+    }
+}  
+}
