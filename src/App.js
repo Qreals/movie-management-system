@@ -13,7 +13,7 @@ function App() {
      <Route path='/login' element={<Login/>}/>
      <Route path='/home' element={<Dashboard/>}/>
      <Route path='/homePage' element={<HomePage/>}/>
-     <Route path="/user/list" component={User}/>
+     <Route path="/user/list" element={<User/>}/>
      <Route path='/' element={<Navigate to='/Login'/>}/>
    </Routes>
   );
